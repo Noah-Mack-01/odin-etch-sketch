@@ -1,6 +1,4 @@
 .tile {
-    width: 5vh;
-    height: 5vh;
     padding: 0;
     margin: 0;
     animation-name: decaying-hover;
