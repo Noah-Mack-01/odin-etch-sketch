@@ -23,8 +23,9 @@
 }
 
 body {
-    margin: 50px 0;
+    padding: 50px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -42,4 +43,13 @@ body {
 @keyframes on-hover {
     from { background-color: none;}
     to {background-color: aquamarine;}
+}
+
+form {
+    margin: 20px 0 10px 0;
+}
+
+button {
+    width: 100px;
+    height: 20px;
 }
